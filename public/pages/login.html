@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login.css">
+    <title>LOGIN</title>
+</head>
+<body>
+    <form action="/login" method="POST" class="container">
+        <h1 id="head1">LOGIN</h1>
+        <label id="emailLabel">Email: <br><input type="email" name="email" id="email" placeholder="Email" required></label><br><br>
+        <label id="usernameLabel">Username: <br><input type="text" name="username" id="username" placeholder="Username" required></label><br><br>
+        <label id="phoneNumberLabel">phone Number: <br><input type="number" name="phoneNumber" id="phoneNumber" placeholder="Phone number" required></label><br><br>
+        <label id="passwordLabel">Password: <br><input type="password" name="password" id="password" placeholder="Password" required></label><br><br>
+        <p id="message"></p><br>
+        <button type="submit" id="submitBtn">LOGIN</button>
+        <p>don't you have an account? <a href="../pages/create_account.html">Create account</a></p>
+    </form>
+    
+    <script src="../reponsiveness/login.js"></script>
+</body>
+</html>

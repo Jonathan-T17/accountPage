@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+}
+
+.container{
+    background-color: aqua;
+    font-size: medium;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+
+#head1{
+    padding: 0;
+    margin-top: 0;
+    font-size: 25px;
+    background-color: rgb(236, 237, 127);
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#emailLabel{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#usernameLabel{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#phoneNumberLabel{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#passwordLabel{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#passwordConfirmLabel{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#submitBtn{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 0.3em;
+}
+#submitBtn:hover{
+    background-color: rgb(195, 180, 16);
+}
+#email,#username,#password,#confirmPassword,#phoneNumber{
+    font-size: 0.7em;
+    padding: 0.2em;
+}
